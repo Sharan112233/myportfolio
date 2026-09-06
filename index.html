@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Sharanabasappa — Data Analyst portfolio. Python, SQL, Power BI, Excel, data visualization and analytics projects.">
+<meta name="theme-color" content="#07111f">
+<title>Sharanabasappa — Data Analyst</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2307111f'/%3E%3Ctext x='32' y='44' font-family='Arial,sans-serif' font-size='34' font-weight='700' fill='%2348e2c0' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Sharanabasappa — Data Analyst">
+<meta property="og:description" content="Data Analyst portfolio — Python, SQL, Power BI, Excel, data visualization and analytics projects.">
+<meta property="og:image" content="profile.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Sharanabasappa — Data Analyst">
+<meta name="twitter:description" content="Data Analyst portfolio — Python, SQL, Power BI, Excel, data visualization and analytics projects.">
+<meta name="twitter:image" content="profile.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#050b16;--panel:#0b1928;--panel2:#0f2235;--text:#f4f8ff;--muted:#94a8bc;--line:rgba(148,163,184,.15);--cyan:#48e2c0;--blue:#5eabff;--purple:#a58fff;--shadow:0 22px 70px rgba(0,0,0,.28);--max:1180px}
+body.light{--bg:#f4f8fc;--panel:#fff;--panel2:#f7fafc;--text:#071321;--muted:#526477;--line:rgba(15,23,42,.11);--cyan:#087d70;--blue:#1466bd;--purple:#6b53c7;--shadow:0 18px 55px rgba(36,58,82,.12)}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:Inter,system-ui,sans-serif;color:var(--text);background:var(--bg);background-image:linear-gradient(rgba(255,255,255,.018) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.018) 1px,transparent 1px),radial-gradient(circle at 80% 0,rgba(94,171,255,.15),transparent 30%),radial-gradient(circle at 0 35%,rgba(72,226,192,.09),transparent 27%);background-size:44px 44px,44px 44px,100% 100%,100% 100%;line-height:1.6;overflow-x:hidden;transition:background .25s,color .25s}
+body.light{background-image:linear-gradient(rgba(15,23,42,.026) 1px,transparent 1px),linear-gradient(90deg,rgba(15,23,42,.026) 1px,transparent 1px),radial-gradient(circle at 80% 0,rgba(94,171,255,.14),transparent 30%),radial-gradient(circle at 0 35%,rgba(72,226,192,.08),transparent 27%)}
+a{color:inherit;text-decoration:none}.container{width:min(var(--max),92%);margin:auto}
+.topbar{position:fixed;z-index:100;top:14px;left:50%;transform:translateX(-50%);width:min(1120px,92%);height:58px;padding:8px 10px 8px 18px;display:flex;align-items:center;justify-content:space-between;background:rgba(7,17,31,.78);border:1px solid var(--line);backdrop-filter:blur(20px);border-radius:18px;box-shadow:0 16px 50px rgba(0,0,0,.15)}body.light .topbar{background:rgba(255,255,255,.86)}
+.logo{font:700 20px 'Space Grotesk';letter-spacing:-.6px}.logo i{font-style:normal;color:var(--cyan)}.nav{display:flex;align-items:center;gap:7px;color:var(--muted);font-size:12px;font-weight:700}
+.nav a{position:relative;padding:9px 11px;border-radius:10px;transition:transform .22s ease,color .22s ease,background .22s ease,box-shadow .22s ease}
+.nav a::after{content:'';position:absolute;left:11px;right:11px;bottom:5px;height:2px;border-radius:2px;background:var(--cyan);transform:scaleX(0);transform-origin:center;transition:transform .22s ease}
+.nav a:hover{color:var(--text);background:rgba(72,226,192,.08);transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.12)}
+.nav a:hover::after{transform:scaleX(1)}.theme{width:36px;height:36px;border:1px solid var(--line);background:transparent;color:var(--text);border-radius:11px;cursor:pointer}
+.hero{min-height:100vh;display:flex;align-items:center;padding:125px 0 75px}.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:65px}.eyebrow{display:inline-flex;align-items:center;gap:9px;border:1px solid color-mix(in srgb,var(--cyan) 25%,transparent);background:color-mix(in srgb,var(--cyan) 8%,transparent);color:var(--cyan);border-radius:99px;padding:8px 12px;font-size:12px;font-weight:800;margin-bottom:20px}.dot{width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 15px var(--cyan)}h1{font:700 clamp(48px,7.2vw,88px)/.96 'Space Grotesk';letter-spacing:-4px;max-width:820px}.gradient{background:linear-gradient(100deg,#ffffff,var(--blue) 52%,var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}body.light .gradient{background:linear-gradient(100deg,#0b2137,#1769bd 52%,#087d70);-webkit-background-clip:text;background-clip:text;color:transparent}.hero-copy{font-size:18px;color:var(--muted);max-width:700px;margin-top:23px}.actions{display:flex;flex-wrap:wrap;gap:11px;margin-top:30px}.btn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:12px;padding:12px 16px;font-size:13px;font-weight:800;transition:.25s;background:var(--panel)}.btn:hover{transform:translateY(-2px);border-color:color-mix(in srgb,var(--cyan) 35%,var(--line));box-shadow:0 15px 40px rgba(0,0,0,.15)}.btn.primary{background:linear-gradient(135deg,var(--cyan),var(--blue));color:#06101b;border:none}.micro{display:flex;gap:17px;flex-wrap:wrap;margin-top:26px;color:var(--muted);font:500 11px 'DM Mono'}.micro span:before{content:'';display:inline-block;width:5px;height:5px;border-radius:50%;background:var(--cyan);margin:0 8px 1px 0}
+.socials{display:flex;gap:14px;margin-top:27px}.social-icon{width:50px;height:50px;border:2px solid var(--cyan);border-radius:50%;display:grid;place-items:center;color:var(--cyan);background:rgba(72,226,192,.025);transition:.25s}.social-icon:hover{transform:translateY(-4px) scale(1.04);box-shadow:0 0 30px color-mix(in srgb,var(--cyan) 25%,transparent);background:color-mix(in srgb,var(--cyan) 8%,transparent)}.social-icon svg{width:22px;height:22px;fill:currentColor}.social-icon.mail svg{width:25px;height:25px}
+.portrait-zone{position:relative;display:flex;justify-content:center}.portrait-frame{position:relative;width:min(410px,82vw);aspect-ratio:1/1.08;padding:7px;border-radius:34px;background:linear-gradient(145deg,rgba(72,226,192,.7),rgba(94,171,255,.5),rgba(165,143,255,.32));box-shadow:0 35px 110px rgba(0,0,0,.28)}.portrait-frame:after{content:'';position:absolute;inset:13px;border:1px solid rgba(255,255,255,.2);border-radius:27px;pointer-events:none}.portrait{width:100%;height:100%;object-fit:cover;object-position:center;border-radius:29px;display:block}.data-card{position:absolute;right:-18px;bottom:43px;padding:14px 17px;border-radius:15px;background:var(--panel2);border:1px solid var(--line);backdrop-filter:blur(18px);box-shadow:var(--shadow)}.data-card small{display:block;color:var(--muted);font:500 10px 'DM Mono';text-transform:uppercase;letter-spacing:1.2px}.data-card strong{display:block;color:var(--cyan);font:700 18px 'Space Grotesk'}
+section{padding:100px 0}.label{font:700 11px/1 'DM Mono';letter-spacing:2px;text-transform:uppercase;color:var(--cyan)}.title{font:700 clamp(31px,4vw,48px)/1.05 'Space Grotesk';letter-spacing:-1.8px;margin-top:10px}.intro{max-width:560px;color:var(--muted);font-size:14px}.heading{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:34px}.panel{background:var(--panel);border:1px solid var(--line);border-radius:24px;box-shadow:var(--shadow);transition:transform .28s ease,box-shadow .28s ease,border-color .28s ease}.panel:hover{transform:translateY(-5px);box-shadow:0 30px 90px rgba(0,0,0,.24);border-color:color-mix(in srgb,var(--cyan) 24%,var(--line))}
+.experience{display:grid;grid-template-columns:1fr 1fr;gap:18px}.experience-card{padding:28px;position:relative;overflow:hidden}.experience-card.current{border-color:color-mix(in srgb,var(--cyan) 30%,var(--line))}.role-top{display:flex;justify-content:space-between;gap:15px;align-items:start}.role-title{font:700 22px 'Space Grotesk'}.company{color:var(--cyan);font-size:13px;font-weight:800;margin-top:4px}.location{color:var(--muted);font-size:12px;margin-top:2px}.location:hover{color:var(--blue)}.badge{font:500 10px 'DM Mono';color:var(--cyan);border:1px solid color-mix(in srgb,var(--cyan) 30%,transparent);padding:6px 9px;border-radius:99px;white-space:nowrap}.experience-card p{color:var(--muted);font-size:13px;margin-top:19px}.bullets{margin-top:14px;display:grid;gap:8px;color:var(--muted);font-size:13px}.bullets li{list-style:none}.bullets li:before{content:'→';color:var(--cyan);margin-right:9px}
+.projects{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.project{overflow:hidden;display:flex;flex-direction:column;min-height:410px;padding:0}.project-media{height:190px;background:var(--panel2);overflow:hidden;position:relative}.project-media img{width:100%;height:100%;object-fit:cover;display:block;transition:.45s}.project:hover .project-media img{transform:scale(1.025)}.media-label{position:absolute;left:14px;top:13px;z-index:3;font:500 9px 'DM Mono';color:#fff;background:rgba(0,0,0,.58);padding:6px 8px;border-radius:99px;backdrop-filter:blur(8px)}.media-fallback{height:100%;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at 80% 20%,rgba(72,226,192,.18),transparent 35%),linear-gradient(135deg,rgba(94,171,255,.12),rgba(72,226,192,.04))}.mock-dashboard{width:82%;height:70%;display:grid;grid-template-columns:1.4fr .8fr;gap:8px}.mock-main,.mock-side{border:1px solid var(--line);background:rgba(255,255,255,.035);border-radius:7px;padding:8px}.mock-chart{height:55%;margin-top:8px;background:linear-gradient(135deg,transparent 48%,rgba(72,226,192,.8) 49%,transparent 51%),linear-gradient(160deg,transparent 47%,rgba(94,171,255,.8) 48%,transparent 50%);border-bottom:1px solid var(--line)}.mock-bars{display:flex;gap:5px;align-items:end;height:35%;margin-top:7px}.mock-bars i{display:block;flex:1;background:linear-gradient(to top,var(--blue),var(--cyan));border-radius:3px 3px 0 0}.mock-bars i:nth-child(1){height:35%}.mock-bars i:nth-child(2){height:65%}.mock-bars i:nth-child(3){height:48%}.mock-bars i:nth-child(4){height:85%}.mock-bars i:nth-child(5){height:70%}.mock-side div{height:12px;border-radius:4px;background:rgba(255,255,255,.07);margin-bottom:7px}.project-body{padding:21px 23px 20px;display:flex;flex-direction:column;flex:1}.project-topline{display:flex;justify-content:space-between;align-items:start;gap:15px}.project-title{font:700 22px 'Space Grotesk';letter-spacing:-.5px}.project-type{font:500 9px 'DM Mono';color:var(--cyan);border:1px solid color-mix(in srgb,var(--cyan) 25%,transparent);border-radius:99px;padding:5px 7px;white-space:nowrap}.project-desc{font-size:13px;color:var(--muted);margin-top:8px}.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:15px}.tag{font:500 10px 'DM Mono';color:var(--muted);background:rgba(94,171,255,.05);border:1px solid var(--line);border-radius:99px;padding:5px 7px}.project-actions{display:flex;gap:8px;margin-top:auto;padding-top:18px}.project-actions a{font-size:11px;font-weight:800;padding:8px 10px;border:1px solid var(--line);border-radius:9px}.project-actions a:hover{border-color:color-mix(in srgb,var(--cyan) 35%,var(--line));color:var(--cyan)}
+.skills-toolbar{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:24px}.filter-btn{padding:10px 16px;border-radius:99px;border:1px solid var(--cyan);background:transparent;color:var(--text);font-size:13px;cursor:pointer;transition:.2s}.filter-btn:hover,.filter-btn.active{background:var(--cyan);color:#06101b}.skill-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}.skill-item{min-height:145px;padding:18px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden}.skill-item:hover{transform:translateY(-7px) scale(1.01)}.skill-icon{width:48px;height:48px;border-radius:15px;display:grid;place-items:center;background:color-mix(in srgb,var(--skill-color) 12%,transparent);color:var(--skill-color);border:1px solid color-mix(in srgb,var(--skill-color) 24%,transparent)}.skill-icon img{width:29px;height:29px;display:block;object-fit:contain}.skill-icon svg{width:30px;height:30px;fill:currentColor}.skill-name{font:700 16px 'Space Grotesk';margin-top:12px}.skill-cat{font:500 10px 'DM Mono';color:var(--muted);text-transform:uppercase;letter-spacing:1px}.skill-item.hidden{display:none}.tools-card{padding:28px;margin-top:20px}.tool-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}.tool{display:flex;align-items:center;justify-content:center;gap:9px;min-height:72px;border:1px solid var(--line);border-radius:15px;background:var(--panel2);font:700 15px 'Space Grotesk';transition:.25s}.tool img{width:22px;height:22px;object-fit:contain}.tool:hover{transform:translateY(-4px);box-shadow:0 16px 35px rgba(0,0,0,.18);border-color:color-mix(in srgb,var(--cyan) 35%,var(--line))}
+.education{display:grid;grid-template-columns:1fr 1fr;gap:18px}.edu{padding:28px}.edu h3{font:700 20px 'Space Grotesk';margin-top:8px}.edu-meta{color:var(--cyan);font-size:12px;margin-top:4px}.edu p{color:var(--muted);font-size:13px;margin-top:7px}
+.certs{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.cert{padding:22px;min-height:180px;display:block}.cert-mark{font:700 10px 'DM Mono';color:var(--cyan)}.cert h3{font:700 16px 'Space Grotesk';margin-top:9px}.cert p{font-size:12px;color:var(--muted);margin-top:6px}.verify{display:inline-flex;margin-top:18px;font-size:11px;font-weight:800;color:var(--blue)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.contact-main,.contact-side{padding:34px}.contact-main h2{font:700 clamp(34px,5vw,60px)/1 'Space Grotesk';letter-spacing:-2px;margin-top:8px}.contact-main p{color:var(--muted);max-width:560px;margin-top:15px}.contact-links{display:grid;gap:10px;margin-top:25px}.contact-link{display:flex;justify-content:space-between;align-items:center;padding:14px 15px;border:1px solid var(--line);border-radius:12px;font-size:13px;transition:.2s}.contact-link:hover{transform:translateX(3px);border-color:color-mix(in srgb,var(--cyan) 30%,var(--line));background:color-mix(in srgb,var(--cyan) 4%,transparent)}.contact-link span:last-child{color:var(--cyan);font:500 10px 'DM Mono'}
+.form-card{margin-top:18px;padding:30px}.form-card h3{font:700 25px 'Space Grotesk';margin-top:7px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-top:22px}.field{display:flex;flex-direction:column;gap:7px}.field.full{grid-column:1/-1}.field label{font:600 11px 'DM Mono';color:var(--muted);text-transform:uppercase;letter-spacing:1px}.field input,.field textarea{width:100%;border:1px solid var(--line);border-radius:11px;background:var(--panel2);color:var(--text);padding:12px 13px;font:14px Inter;outline:none;transition:.2s}.field input:focus,.field textarea:focus{border-color:var(--cyan);box-shadow:0 0 0 3px color-mix(in srgb,var(--cyan) 10%,transparent)}.field textarea{min-height:140px;resize:vertical}.submit-btn{margin-top:15px;width:max-content;border:0;border-radius:10px;padding:10px 15px;background:linear-gradient(135deg,var(--cyan),var(--blue));color:#06101b;font-weight:800;cursor:pointer}.submit-btn{transition:transform .22s ease,box-shadow .22s ease,filter .22s ease}.submit-btn:hover{transform:translateY(-3px) scale(1.02);box-shadow:0 12px 30px rgba(72,226,192,.2);filter:brightness(1.05)}.submit-btn:active{transform:translateY(0) scale(.98)}.form-status{font-size:12px;color:var(--cyan);margin-top:10px;min-height:18px}.form-note{font-size:10px;color:var(--muted);margin-top:10px}
+footer{border-top:1px solid var(--line);padding:35px 0 50px;color:var(--muted);font-size:11px}.footer-row{display:flex;justify-content:space-between;gap:20px}.reveal{opacity:0;transform:translateY(20px);transition:opacity .7s ease,transform .7s ease}.reveal.show{opacity:1;transform:none}
+@media(max-width:900px){.hero-grid,.experience,.education,.contact-grid{grid-template-columns:1fr}.portrait-zone{order:-1}.portrait-frame{width:320px}.data-card{right:calc(50% - 190px)}.projects{grid-template-columns:1fr}.skill-grid{grid-template-columns:repeat(3,1fr)}.certs{grid-template-columns:1fr 1fr}.heading{display:block}.intro{margin-top:12px}}
+@media(max-width:620px){.nav a{display:none}.topbar{padding-left:16px}.hero{padding-top:105px}.hero-grid{gap:38px}h1{letter-spacing:-2.7px}.hero-copy{font-size:16px}.data-card{display:none}.social-icon{width:46px;height:46px}section{padding:75px 0}.experience-card,.skill-item,.tools-card,.edu,.cert,.contact-main,.contact-side,.form-card{padding:22px}.skill-grid{grid-template-columns:repeat(2,1fr)}.certs{grid-template-columns:1fr}.tool-grid,.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.footer-row{display:block}.footer-row div+div{margin-top:7px}}
+
+/* ===================== INTERACTION POLISH ===================== */
+:root{--hover-lift:translateY(-10px) scale(1.012)}
+.panel{position:relative;isolation:isolate;overflow:hidden;will-change:transform}
+.panel::before{content:'';position:absolute;inset:0;z-index:-1;border-radius:inherit;background:radial-gradient(circle at var(--mx,50%) var(--my,50%),color-mix(in srgb,var(--cyan) 12%,transparent),transparent 38%);opacity:0;transition:opacity .3s ease;pointer-events:none}
+.panel::after{content:'';position:absolute;left:-70%;top:-20%;width:45%;height:160%;transform:rotate(18deg);background:linear-gradient(90deg,transparent,rgba(255,255,255,.09),transparent);opacity:0;transition:left .7s ease,opacity .3s ease;pointer-events:none}
+.panel:hover{transform:var(--hover-lift);box-shadow:0 34px 100px rgba(0,0,0,.32),0 0 0 1px color-mix(in srgb,var(--cyan) 12%,transparent),0 0 42px color-mix(in srgb,var(--cyan) 8%,transparent);border-color:color-mix(in srgb,var(--cyan) 38%,var(--line))}
+.panel:hover::before{opacity:1}.panel:hover::after{left:125%;opacity:1}
+.experience-card{--card-accent:var(--cyan);min-height:315px}.experience-card.current{box-shadow:inset 0 1px 0 rgba(255,255,255,.04),var(--shadow)}
+.experience-card.current:hover{box-shadow:0 34px 100px rgba(0,0,0,.36),0 0 48px rgba(72,226,192,.13),inset 0 1px 0 rgba(255,255,255,.05)}
+.experience-card:not(.current):hover{box-shadow:0 34px 100px rgba(0,0,0,.36),0 0 48px rgba(94,171,255,.12),inset 0 1px 0 rgba(255,255,255,.05)}
+.role-top{position:relative;z-index:2}.experience-card p,.experience-card .bullets{position:relative;z-index:2}
+.badge{background:color-mix(in srgb,var(--cyan) 7%,transparent);transition:.3s}.experience-card:hover .badge{background:var(--cyan);color:#06101b;box-shadow:0 0 24px color-mix(in srgb,var(--cyan) 28%,transparent)}
+.skill-item{cursor:default;min-height:188px;background:linear-gradient(145deg,var(--panel),color-mix(in srgb,var(--panel2) 70%,var(--panel)));border-color:rgba(148,163,184,.12);transition:transform .32s cubic-bezier(.2,.8,.2,1),box-shadow .32s ease,border-color .32s ease,background .32s ease}
+.skill-item::before{background:radial-gradient(circle at 50% 20%,color-mix(in srgb,var(--skill-color) 22%,transparent),transparent 48%)}
+.skill-item:hover{transform:translateY(-11px) scale(1.025);border-color:color-mix(in srgb,var(--skill-color) 58%,var(--line));box-shadow:0 30px 75px rgba(0,0,0,.36),0 0 38px color-mix(in srgb,var(--skill-color) 24%,transparent),inset 0 1px 0 rgba(255,255,255,.08);background:linear-gradient(145deg,color-mix(in srgb,var(--panel) 94%,var(--skill-color)),var(--panel2))}
+.skill-icon{transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s ease;background:color-mix(in srgb,var(--skill-color) 10%,transparent)}
+.skill-item:hover .skill-icon{transform:translateY(-4px) rotate(-3deg) scale(1.08);box-shadow:0 0 30px color-mix(in srgb,var(--skill-color) 28%,transparent)}
+.skill-name{transition:color .25s ease}.skill-item:hover .skill-name{color:var(--skill-color)}
+.filter-btn{box-shadow:0 0 0 transparent}.filter-btn.active{box-shadow:0 10px 28px color-mix(in srgb,var(--cyan) 18%,transparent)}
+.tool{position:relative;overflow:hidden}.tool img{width:22px;height:22px;object-fit:contain}.tool:hover{transform:translateY(-7px) scale(1.015);box-shadow:0 22px 45px rgba(0,0,0,.26),0 0 28px color-mix(in srgb,var(--cyan) 10%,transparent)}
+.project:hover{transform:translateY(-10px) scale(1.008);box-shadow:0 34px 100px rgba(0,0,0,.34),0 0 42px color-mix(in srgb,var(--cyan) 10%,transparent)}
+.edu:hover,.cert:hover,.contact-main:hover,.contact-side:hover,.form-card:hover{transform:translateY(-9px);box-shadow:0 34px 95px rgba(0,0,0,.3),0 0 38px color-mix(in srgb,var(--cyan) 9%,transparent)}
+.cert{transition:transform .3s ease,box-shadow .3s ease,border-color .3s ease,background .3s ease}.cert:hover .verify{transform:translateX(5px)}.verify{transition:transform .25s ease}
+.hero .social-icon:hover{transform:translateY(-6px) scale(1.08);box-shadow:0 0 35px color-mix(in srgb,var(--cyan) 34%,transparent)}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important}.panel:hover,.skill-item:hover,.project:hover{transform:none}}
+
+
+/* ===================== SKILLS INTERACTIVE LAYOUT ===================== */
+.skills-layout{position:relative;display:block}
+.skill-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;position:relative;z-index:2}
+.skill-item{min-height:158px;padding:22px;justify-content:center;align-items:center;text-align:center;border-radius:16px}
+.skill-icon{width:62px;height:62px;border:none;border-radius:0;background:transparent!important;display:grid;place-items:center;margin-bottom:9px}
+.skill-icon svg{width:52px;height:52px;fill:currentColor}
+.skill-name{font-size:16px;margin-top:2px}
+.skill-cat{display:none}
+
+.tools-card{padding:28px;margin-top:24px}
+.tool-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
+.tool{display:flex;align-items:center;justify-content:center;gap:11px;min-height:72px;border:1px solid var(--line);border-radius:15px;background:var(--panel2);font:700 15px 'Space Grotesk';transition:.25s}
+.tool-icon{width:30px;height:30px;display:grid;place-items:center;flex:none;transition:transform .25s ease}
+.tool-icon svg{width:30px;height:30px;display:block}
+.powerbi-tool{color:#f2c811}
+.excel-tool{color:#217346}
+.figma-tool{color:#f24e1e}
+.tool:hover{transform:translateY(-5px) scale(1.01);box-shadow:0 18px 38px rgba(0,0,0,.2);border-color:color-mix(in srgb,var(--cyan) 35%,var(--line))}
+.tool:hover .tool-icon{transform:scale(1.1) rotate(-3deg)}
+
+@media(max-width:1050px){
+  .skill-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:700px){
+  .skill-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+  .skill-item{min-height:145px;padding:18px}
+  .skill-icon{width:52px;height:52px}
+  .skill-icon svg{width:45px;height:45px}
+  .tool-grid{grid-template-columns:1fr}
+  }
+
+
+
+/* ===================== TOOLS I WORK WITH — COMPACT & ALIGNED ===================== */
+.tools-card{width:min(900px,100%);margin:30px auto 0;padding:24px 28px}
+.tools-card .label{text-align:left}
+.tool-grid{width:100%;max-width:780px;margin:17px auto 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.tool{min-height:68px;padding:12px 18px;display:flex;align-items:center;justify-content:center;gap:12px;border:1px solid var(--line);border-radius:14px;background:var(--panel2);font:700 15px 'Space Grotesk';transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+.tool-icon{width:30px;height:30px;display:grid;place-items:center;flex:none;transition:transform .25s ease}
+.tool-icon svg{width:29px;height:29px;display:block}
+.powerbi-tool{color:#f2c811}.excel-tool{color:#217346}.figma-tool{color:#f24e1e}
+.tool:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(0,0,0,.18);border-color:color-mix(in srgb,var(--cyan) 40%,var(--line))}
+.tool:hover .tool-icon{transform:scale(1.1) rotate(-3deg)}
+@media(max-width:700px){
+  .tools-card{padding:21px 16px}
+  .tool-grid{grid-template-columns:1fr;max-width:430px}
+}
+
+
+/* ===================== REAL PROJECT SCREENSHOTS ===================== */
+.project-media{overflow:hidden;border-radius:14px;border:1px solid var(--line);background:#0a0d15}
+.project-media img{width:100%;height:100%;object-fit:cover;object-position:top center;display:block;transition:transform .45s ease,filter .45s ease}
+.project:hover .project-media img{transform:scale(1.035);filter:saturate(1.04) brightness(1.04)}
+.form-status.success{color:#4ade80}
+.form-status.error{color:#fb7185}
+
+</style>
+</head>
+<body>
+<header class="topbar"><a class="logo" href="#home">Sharan<i>.</i></a><nav class="nav"><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#certificates">Certificates</a><a href="#contact">Contact</a><button class="theme" id="theme" aria-label="Toggle theme">☼</button></nav></header>
+<main>
+<section class="hero" id="home"><div class="container hero-grid"><div class="reveal"><div class="eyebrow"><span class="dot"></span> Data Analyst · <a href="https://www.google.com/maps/search/?api=1&query=Hosapete%2C%20Karnataka" target="_blank" rel="noopener">Hosapete, Karnataka ↗</a></div><h1>Data that tells a <span class="gradient">better story.</span></h1><p class="hero-copy">I’m Sharanabasappa — a Data Analyst working with Python, SQL, Power BI and Excel to turn raw data into reliable analysis, useful dashboards and business-ready insights.</p><div class="actions"><a class="btn primary" href="#projects">Explore projects ↓</a><a class="btn" href="Sharanabasappa_Resume.pdf" target="_blank" rel="noopener">View resume ↗</a><a class="btn" href="https://www.linkedin.com/in/sharan-udanoore-3a52b8254" target="_blank">LinkedIn ↗</a></div><div class="micro"><span>PYTHON</span><span>SQL</span><span>POWER BI</span><span>EXCEL</span></div><div class="socials" aria-label="Social links"><a class="social-icon mail" href="mailto:udnsharanabasappa424@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24"><path d="M2.5 5.5A2.5 2.5 0 0 1 5 3h14a2.5 2.5 0 0 1 2.5 2.5v13A2.5 2.5 0 0 1 19 21H5a2.5 2.5 0 0 1-2.5-2.5v-13Zm2.2.3 6.7 5.2a1 1 0 0 0 1.2 0l6.7-5.2H4.7Zm14.3 2.4-5.2 4.05a3 3 0 0 1-3.6 0L5 8.2v10.3c0 .28.22.5.5.5h13c.28 0 .5-.22.5-.5V8.2Z"/></svg></a><a class="social-icon" href="https://www.linkedin.com/in/sharan-udanoore-3a52b8254" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M6.2 8.1H2.8V21h3.4V8.1ZM4.5 3A2 2 0 1 0 4.5 7 2 2 0 0 0 4.5 3ZM21.2 13.6c0-3.9-2.1-5.7-4.9-5.7-2.3 0-3.3 1.3-3.9 2.2V8.1H9V21h3.4v-6.4c0-1.7.3-3.3 2.4-3.3 2.1 0 2.1 1.9 2.1 3.4V21h3.4v-7.4Z"/></svg></a><a class="social-icon" href="https://github.com/Sharan112233" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 2.5a9.7 9.7 0 0 0-3.07 18.9c.49.09.67-.21.67-.47v-1.84c-2.72.59-3.3-1.15-3.3-1.15-.44-1.12-1.08-1.42-1.08-1.42-.89-.61.07-.6.07-.6.98.07 1.5 1.01 1.5 1.01.87 1.49 2.29 1.06 2.85.81.09-.63.34-1.06.62-1.3-2.17-.25-4.45-1.09-4.45-4.84 0-1.07.38-1.95 1-2.64-.1-.25-.43-1.25.1-2.61 0 0 .82-.26 2.67 1.01a9.28 9.28 0 0 1 4.86 0c1.85-1.27 2.67-1.01 2.67-1.01.53 1.36.2 2.36.1 2.61.62.69 1 1.57 1 2.64 0 3.76-2.29 4.58-4.47 4.82.35.3.66.88.66 1.78v2.64c0 .26.18.56.68.47A9.7 9.7 0 0 0 12 2.5Z"/></svg></a></div></div><div class="portrait-zone reveal"><div class="portrait-frame"><img src="profile.jpg" class="portrait" alt="Sharanabasappa"></div><div class="data-card"><small>Currently</small><strong>DATA ANALYST</strong><small>KS AI & Cloud Solutions</small></div></div></div></section>
+
+<section id="experience"><div class="container"><div class="heading reveal"><div><div class="label">01 / Experience</div><h2 class="title">Professional experience.</h2></div><p class="intro">A focused view of my current analytics role and earlier training experience.</p></div><div class="experience">
+<article class="panel experience-card current reveal"><div class="role-top"><div><div class="role-title">Data Analyst</div><div class="company">KS AI & Cloud Solutions</div><a class="location" href="https://www.google.com/maps/search/?api=1&query=Hosapete%2C%20Karnataka" target="_blank" rel="noopener">Hosapete, Karnataka ↗</a></div><span class="badge">CURRENT</span></div><p>Currently working as a Data Analyst with a focus on business intelligence, reporting and practical data solutions.</p><ul class="bullets"><li>Data analysis and reporting</li><li>Power BI-focused analytics work</li><li>Transforming business data into actionable insights</li></ul></article>
+<article class="panel experience-card reveal"><div class="role-top"><div><div class="role-title">Data Analyst Training</div><div class="company">Dr. Reddy’s Foundation</div><a class="location" href="https://www.google.com/maps/search/?api=1&query=Bengaluru%2C%20Karnataka" target="_blank" rel="noopener">Bengaluru, Karnataka ↗</a></div><span class="badge">TRAINING</span></div><p>Completed hands-on data analytics training focused on Python, SQL, data preparation and reporting.</p><ul class="bullets"><li>Cleaned, transformed and validated datasets</li><li>Created dashboards and reports for KPIs and trends</li><li>Collaborated with teammates on operational reporting</li></ul></article>
+</div></div></section>
+
+<section id="projects"><div class="container"><div class="heading reveal"><div><div class="label">02 / Selected work</div><h2 class="title">Featured Projects</h2></div></div><div class="projects" id="projectGrid"></div></div></section>
+
+<section id="skills"><div class="container"><div class="heading reveal"><div><div class="label">03 / Technical skills</div><h2 class="title">A technical toolkit built for data.</h2></div></div><div class="skills-toolbar reveal"><button class="filter-btn active" data-filter="all">All Skills</button><button class="filter-btn" data-filter="programming">Programming</button><button class="filter-btn" data-filter="visualization">Visualization</button><button class="filter-btn" data-filter="bi">BI Tools</button><button class="filter-btn" data-filter="database">Database</button><button class="filter-btn" data-filter="development">Development</button></div>
+<div class="skills-layout">
+  <div class="skill-grid" id="skillGrid"></div>
+</div>
+</div>
+<div class="panel tools-card reveal"><div class="label">Tools I work with</div><div class="tool-grid">
+<div class="tool"><span class="tool-icon powerbi-tool" aria-hidden="true"></span><span>Power BI</span></div>
+<div class="tool"><span class="tool-icon excel-tool" aria-hidden="true"></span><span>Excel</span></div>
+<div class="tool"><span class="tool-icon figma-tool" aria-hidden="true"><svg viewBox="0 0 64 64"><path fill="currentColor" d="M20 6h12v17H20A10 10 0 1 1 20 6zm12 0h12a10 10 0 1 1 0 20H32V6zm0 20h10a10 10 0 1 1 0 20H32V26zm-12 0h12v17H20a10 10 0 1 1 0-17zm0 17h12v5a10 10 0 1 1-12-5z"/></svg></span><span>Figma</span></div>
+</div></div></div></section>
+
+<section id="education"><div class="container"><div class="heading reveal"><div><div class="label">04 / Education</div><h2 class="title">Academic foundation.</h2></div></div><div class="education"><article class="panel edu reveal"><div class="label">POSTGRADUATE</div><h3>Master of Computer Applications</h3><div class="edu-meta">Visvesvaraya Technological University · Dec 2025</div><p>Bengaluru, Karnataka</p><span class="grade">CGPA: 8.0</span></article><article class="panel edu reveal"><div class="label">UNDERGRADUATE</div><h3>Bachelor of Computer Applications</h3><div class="edu-meta">Sharnbasva University · Jul 2023</div><p>Kalaburagi, Karnataka</p><span class="grade">CGPA: 8.5</span></article></div></div></section>
+
+<section id="certificates"><div class="container"><div class="heading reveal"><div><div class="label">05 / Certificates</div><h2 class="title">Credentials.</h2></div></div><div class="certs" id="certGrid"></div></div></section>
+
+<section id="contact"><div class="container"><div class="contact-grid"><div class="panel contact-main reveal"><div class="label">06 / Contact</div><h2>Let’s turn data<br>into impact.</h2><p>Have an opportunity, project or question? Send me a message and I’ll get back to you.</p><div class="contact-links"><a class="contact-link" href="mailto:udnsharanabasappa424@gmail.com"><span>udnsharanabasappa424@gmail.com</span><span>EMAIL ↗</span></a><a class="contact-link" href="tel:+916362197434"><span>+91 63621 97434</span><span>CALL ↗</span></a></div></div><div class="panel contact-side reveal"><div class="label">Find me online</div><h3>Professional profiles</h3><div class="contact-links"><a class="contact-link" href="https://www.linkedin.com/in/sharan-udanoore-3a52b8254" target="_blank" rel="noopener"><span>LinkedIn</span><span>↗</span></a><a class="contact-link" href="https://github.com/Sharan112233" target="_blank" rel="noopener"><span>GitHub</span><span>↗</span></a>
+<a class="contact-link" href="https://www.hackerrank.com/Sharan112233" target="_blank" rel="noopener"><span>HackerRank</span><span>↗</span></a>
+<a class="contact-link" href="https://www.kaggle.com/Sharan112233" target="_blank" rel="noopener"><span>Kaggle</span><span>↗</span></a><a class="contact-link" href="Sharanabasappa_Resume.pdf" target="_blank" rel="noopener"><span>Resume</span><span>PDF ↗</span></a></div></div></div>
+<div class="panel form-card reveal"><div class="label">Send a message</div><h3>Let’s connect.</h3><form id="contactForm" action="https://formsubmit.co/ajax/udnsharanabasappa424@gmail.com" method="POST" accept-charset="UTF-8"><input type="hidden" name="_subject" value="New Portfolio Contact — Sharanabasappa"><input type="hidden" name="_template" value="table"><input type="hidden" name="_captcha" value="true"><input type="hidden" name="_url" value=""><div class="form-grid"><input type="hidden" name="_replyto" value="">
+<div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Enter your name" required></div><div class="field"><label for="email">Your email</label><input id="email" name="email" type="email" placeholder="Enter your email" required></div><div class="field full"><label for="subject">Subject</label><input id="subject" name="subject" type="text" placeholder="Enter your subject" required></div><div class="field full"><label for="message">Message</label><textarea id="message" name="message" placeholder="Enter your message" required></textarea></div></div><button class="submit-btn" id="submitBtn" type="submit">Send message ↗</button><div class="form-status" id="formStatus" role="status" aria-live="polite"></div><div class="form-note">Messages are delivered to udnsharanabasappa424@gmail.com. First-time FormSubmit use may require email activation; check your inbox and spam folder.</div></form></div></div></section>
+</main><footer><div class="container footer-row"><div>© <span id="year"></span> Sharanabasappa</div><div>Built for data, decisions & better products.</div></div></footer>
+<script>
+/* ========================= PROJECTS =========================
+Add/delete projects only inside this array. The Resume button opens the bundled Sharanabasappa_Resume.pdf.
+image = screenshot URL/path; type = Website or Dashboard; github = repo; live = live site.
+If image is empty, the card shows an analytics fallback.
+============================================================== */
+const PROJECTS=[
+{title:'Sales Performance Analytics Dashboard',type:'Dashboard',image:'https://raw.githubusercontent.com/Sharan112233/sales-performance-analytics-dashboard/main/screenshots/Business%20Overview.png',description:'Interactive Power BI dashboard covering sales performance, profitability, YoY growth, target achievement, regional managers, returns and delivery delays.',tech:['Power BI','Business Intelligence','Sales Analytics'],github:'https://github.com/Sharan112233/sales-performance-analytics-dashboard',live:''},
+{title:'PHPHiring',type:'Website',image:'phphiring-screenshot.png',description:'PHP-focused talent marketplace connecting businesses with verified PHP developers and agencies using framework, stack and location filters.',tech:['Next.js','TypeScript','Supabase','Razorpay'],github:'https://github.com/Sharan112233/PhpDeveloperHiring',live:'https://phphiring-lac.vercel.app/'},
+{title:'CareerBridge',type:'Website',image:'careerbridge-screenshot.png',description:'SEO-focused job listing platform built with Next.js and Supabase, with job listings, content and performance-focused architecture.',tech:['Next.js','Supabase','JavaScript','SEO'],github:'https://github.com/Sharan112233/CareerBridge',live:'https://career-bridge-nine-sooty.vercel.app/'},
+{title:'MoneyMap',type:'Website',image:'moneymap-screenshot.png',description:'Personal finance analytics system for expense tracking, savings forecasting, anomaly detection and budget insights.',tech:['Python','Pandas','NumPy','Machine Learning'],github:'https://github.com/Sharan112233/moneymap',live:'https://moneymap-silk.vercel.app/'} ];
+function fallback(){return `<div class="media-fallback"><div class="mock-dashboard"><div class="mock-main"><div class="mock-chart"></div><div class="mock-bars"><i></i><i></i><i></i><i></i><i></i></div></div><div class="mock-side"><div></div><div></div><div></div><div></div></div></div></div>`}
+function projectCard(p,i){const live=p.live?`<a href="${p.live}" target="_blank" rel="noopener">Live demo ↗</a>`:'';const media=p.image?`<img src="${p.image}" alt="${p.title} preview" loading="lazy" onerror="this.parentElement.innerHTML=fallback()">`:fallback();return `<article class="panel project reveal"><div class="project-media"><span class="media-label">${p.type}</span>${media}</div><div class="project-body"><div class="project-topline"><h3 class="project-title">${p.title}</h3><span class="project-type">PROJECT ${String(i+1).padStart(2,'0')}</span></div><p class="project-desc">${p.description}</p><div class="tags">${p.tech.map(x=>`<span class="tag">${x}</span>`).join('')}</div><div class="project-actions"><a href="${p.github}" target="_blank" rel="noopener">GitHub ↗</a>${live}</div></div></article>`}
+document.getElementById('projectGrid').innerHTML=PROJECTS.map(projectCard).join('');
+
+/* ========================= TECHNICAL SKILLS ========================= */
+const ICONS={
+python:`<svg viewBox="0 0 64 64" aria-hidden="true"><path fill="currentColor" d="M31 7c-12 0-11 5-11 5v8h11v3H16S7 22 7 34s8 12 8 12h7v-8s0-9 9-9h10s8 0 8-8V15s1-8-10-8h-8zm-7 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/><path fill="currentColor" d="M33 57c12 0 11-5 11-5v-8H33v-3h15s9 1 9-11-8-12-8-12h-7v8s0 9-9 9H23s-8 0-8 8v6s-1 8 10 8h8zm7-5a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>`,
+sql:`<svg viewBox="0 0 64 64" aria-hidden="true"><ellipse cx="32" cy="13" rx="20" ry="8" fill="currentColor"/><path fill="currentColor" d="M12 13v16c0 5 9 8 20 8s20-3 20-8V13c0 5-9 8-20 8s-20-3-20-8zm0 16v16c0 5 9 8 20 8s20-3 20-8V29c0 5-9 8-20 8s-20-3-20-8z"/></svg>`,
+powerbi:`<svg viewBox="0 0 64 64" aria-hidden="true"><path fill="currentColor" d="M9 48h10V30H9v18zm18 0h10V20H27v28zm18 0h10V10H45v38z"/></svg>`,
+tableau:`<svg viewBox="0 0 64 64" aria-hidden="true"><path fill="currentColor" d="M29 5h6v17h-6zM23 27h18v6H23zM29 37h6v22h-6zM7 29h17v6H7zM40 29h17v6H40zM15 17h6v30h-6zM43 17h6v30h-6z"/></svg>`,
+excel:`<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="10" y="9" width="44" height="46" rx="4" fill="none" stroke="currentColor" stroke-width="5"/><path fill="currentColor" d="M18 18h28v6H18zm0 11h28v6H18zm0 11h28v6H18z"/><path fill="currentColor" d="M25 13h5v38h-5z"/></svg>`,
+pandas:`<svg viewBox="0 0 64 64" aria-hidden="true"><path fill="currentColor" d="M12 10h7v17h7v7h-7v20h-7V34H5v-7h7V10zm40 0h7v20h-7v-7h-7v-7h7V10zM33 17h7v13h-7V17zm0 20h7v13h-7V37z"/></svg>`,
+numpy:`<svg viewBox="0 0 64 64" aria-hidden="true"><path fill="currentColor" d="M9 17h12v8H9zm34 0h12v8H43zM26 9h12v8H26zm0 30h12v8H26zM9 39h12v8H9zm34 0h12v8H43zM17 25h12v8H17zm18 0h12v8H35z"/></svg>`,
+matplotlib:`<svg viewBox="0 0 64 64" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="5" d="M10 52V12m0 40h44"/><circle cx="25" cy="39" r="4" fill="currentColor"/><circle cx="35" cy="27" r="4" fill="currentColor"/><circle cx="47" cy="19" r="4" fill="currentColor"/></svg>`,
+seaborn:`<svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="21" fill="none" stroke="currentColor" stroke-width="6"/><path fill="currentColor" d="M32 11h6v21H32zM32 32h21v6H32z"/></svg>`,
+postgresql:`<svg viewBox="0 0 64 64" aria-hidden="true"><path fill="currentColor" d="M14 14c0-5 8-8 18-8s18 3 18 8v27c0 6-8 11-18 11S14 47 14 41V14zm6 1v25c0 3 5 6 12 6s12-3 12-6V15c-3 2-7 3-12 3s-9-1-12-3z"/></svg>`,
+git:`<svg viewBox="0 0 64 64" aria-hidden="true"><path fill="currentColor" d="M31 6l27 27-25 25L6 32 31 6zm0 11l-16 15 16 16 15-15-15-16z"/><circle cx="25" cy="31" r="4" fill="currentColor"/><circle cx="37" cy="43" r="4" fill="currentColor"/></svg>`,
+github:`<svg viewBox="0 0 64 64" aria-hidden="true"><path fill="currentColor" d="M32 7C18 7 7 18 7 32c0 11 7 20 17 23 1 0 2-1 2-2v-7c-7 2-8-3-8-3-1-3-3-4-3-4-2-1 0-1 0-1 3 0 5 3 5 3 3 5 8 4 10 3 0-2 1-4 2-5-6-1-12-3-12-13 0-3 1-5 3-7 0-1-1-3 0-6 0 0 2-1 7 3 2-1 5-1 7-1s5 0 7 1c5-4 7-3 7-3 1 3 0 5 0 6 2 2 3 4 3 7 0 10-6 12-12 13 1 1 2 3 2 5v9c0 1 1 2 2 2 10-3 17-12 17-23C57 18 46 7 32 7z"/></svg>`,
+code:`<svg viewBox="0 0 64 64" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="6" d="M24 17L9 32l15 15M40 17l15 15-15 15M36 11L28 53"/></svg>`,
+chart:`<svg viewBox="0 0 64 64" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="5" d="M10 52V12m0 40h44"/><path fill="none" stroke="currentColor" stroke-width="5" d="M17 41l10-10 8 7 13-17"/></svg>`,
+file:`<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="12" y="9" width="40" height="46" rx="3" fill="none" stroke="currentColor" stroke-width="5"/><path fill="currentColor" d="M20 19h24v5H20zm0 10h24v5H20zm0 10h24v5H20z"/></svg>`,
+web:`<svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="23" fill="none" stroke="currentColor" stroke-width="5"/><path fill="none" stroke="currentColor" stroke-width="4" d="M9 32h46M32 9c7 7 10 15 10 23s-3 16-10 23c-7-7-10-15-10-23s3-16 10-23z"/></svg>`,
+cloud:`<svg viewBox="0 0 64 64" aria-hidden="true"><path fill="currentColor" d="M19 49a13 13 0 1 1 3-25 16 16 0 0 1 30 7 9 9 0 1 1 1 18H19z"/></svg>`
+};
+document.querySelector('.powerbi-tool').innerHTML=ICONS.powerbi;
+document.querySelector('.excel-tool').innerHTML=ICONS.excel;
+
+const SKILLS=[
+{name:'Python',cat:'programming',icon:'python',color:'#3776ab'},
+{name:'SQL',cat:'database',icon:'sql',color:'#f59e0b'},
+{name:'Power BI',cat:'bi',icon:'powerbi',color:'#f2c811'},
+{name:'Excel',cat:'bi',icon:'excel',color:'#217346'},
+{name:'Pandas',cat:'programming',icon:'code',color:'#150458'},
+{name:'NumPy',cat:'programming',icon:'numpy',color:'#4cb7e8'},
+{name:'Matplotlib',cat:'visualization',icon:'chart',color:'#2f8fb8'},
+{name:'Seaborn',cat:'visualization',icon:'seaborn',color:'#8a5cc7'},
+{name:'PostgreSQL',cat:'database',icon:'postgresql',color:'#4169e1'},
+{name:'Git',cat:'development',icon:'git',color:'#f05032'},
+{name:'GitHub',cat:'development',icon:'github',color:'#8b949e'},
+{name:'HTML',cat:'development',icon:'web',color:'#e34f26'},
+{name:'CSS',cat:'development',icon:'code',color:'#1572b6'},
+{name:'AWS',cat:'development',icon:'cloud',color:'#ff9900'}
+];
+function skillCard(s){return `<article class="panel skill-item reveal" data-cat="${s.cat}" style="--skill-color:${s.color}"><div class="skill-icon">${ICONS[s.icon]}</div><div><div class="skill-name">${s.name}</div><div class="skill-cat">${s.cat}</div></div></article>`}
+document.getElementById('skillGrid').innerHTML=SKILLS.map(skillCard).join('');
+document.querySelectorAll('.filter-btn').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));btn.classList.add('active');const f=btn.dataset.filter;document.querySelectorAll('.skill-item').forEach(card=>{card.classList.toggle('hidden',f!=='all'&&card.dataset.cat!==f)})}));
+
+/* ========================= CERTIFICATES =========================
+Replace url with your personal credential URL when available.
+The card itself is clickable.
+=============================================================== */
+const CERTIFICATES=[
+{name:'Microsoft Certified: Fabric Data Engineer Associate',code:'DP-700',note:'Microsoft certification',url:'https://learn.microsoft.com/api/credentials/share/en-us/sharanabasappa-6599/BCFFAAC4C022C0FF?sharingId=E231AEA3D76D03AC'},
+{name:'Microsoft Certified: Power BI Data Analyst Associate',code:'PL-300',note:'Microsoft certification',url:''},
+{name:'Naukri Campus Young Turks',code:'NAUKRI CAMPUS',note:'Completed · Oct 2024',url:'https://www.naukri.com/campus/certificates/young_turks_round_1_participation/v0/6708192ce3b9a668e0008c69?utm_source=certificate&utm_medium=copy&utm_campaign=6708192ce3b9a668e0008c69'},
+{name:'NPTEL — Programming in Java',code:'NPTEL',note:'Programming in Java · Oct 2022',url:'https://nptel.ac.in/noc/E_Certificate/NPTEL22CS102S6393029910023819'},
+{name:'Python Certification',code:'FREECODECAMP',note:'Python certification',url:'https://freecodecamp.org/certification/fcc-fddbe47e-35b2-408c-9f28-32ad8d6d98aa/python-v9'}
+];
+function certCard(c){const inner=`<div class="cert-mark">${c.code}</div><h3>${c.name}</h3><p>${c.note}</p><span class="verify">${c.url?'Open credential ↗':'Add credential URL →'}</span>`;return c.url?`<a class="panel cert reveal" href="${c.url}" target="_blank" rel="noopener">${inner}</a>`:`<div class="panel cert reveal" title="Add your certificate URL in the CERTIFICATES array">${inner}</div>`}
+document.getElementById('certGrid').innerHTML=CERTIFICATES.map(certCard).join('');
+
+const observer=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.08});document.querySelectorAll('.reveal').forEach(x=>observer.observe(x));
+const theme=document.getElementById('theme');
+function syncThemeIcon(){theme.textContent=document.body.classList.contains('light')?'☾':'☼';theme.setAttribute('aria-label',document.body.classList.contains('light')?'Switch to dark theme':'Switch to light theme')}
+if(localStorage.getItem('theme')==='light')document.body.classList.add('light');
+syncThemeIcon();
+theme.addEventListener('click',()=>{document.body.classList.toggle('light');localStorage.setItem('theme',document.body.classList.contains('light')?'light':'dark');syncThemeIcon()});
+document.getElementById('year').textContent=new Date().getFullYear();
+
+/* Mouse-follow glow on cards: subtle, desktop only. */
+if (window.matchMedia('(pointer:fine)').matches) {
+  document.querySelectorAll('.panel').forEach(card => {
+    card.addEventListener('pointermove', e => {
+      const r = card.getBoundingClientRect();
+      card.style.setProperty('--mx', ((e.clientX-r.left)/r.width*100)+'%');
+      card.style.setProperty('--my', ((e.clientY-r.top)/r.height*100)+'%');
+    });
+    card.addEventListener('pointerleave', () => {
+      card.style.removeProperty('--mx');
+      card.style.removeProperty('--my');
+    });
+  });
+}
+
+
+const contactForm=document.getElementById('contactForm');if(contactForm){
+  const status=document.getElementById('formStatus');
+  const submit=document.getElementById('submitBtn');
+  const email=contactForm.querySelector('[name="email"]');
+  const reply=contactForm.querySelector('[name="_replyto"]');
+  const formUrl=contactForm.querySelector('[name="_url"]');
+
+  if(email && reply) email.addEventListener('input',()=>reply.value=email.value);
+  if(formUrl) formUrl.value=window.location.href.split('#')[0];
+
+  contactForm.addEventListener('submit',async(e)=>{
+    e.preventDefault();
+    if(!contactForm.reportValidity()) return;
+
+    status.textContent='Sending message…';
+    status.className='form-status';
+    submit.disabled=true;
+    submit.textContent='Sending…';
+
+    const data=Object.fromEntries(new FormData(contactForm).entries());
+
+    try{
+      const response=await fetch('https://formsubmit.co/ajax/udnsharanabasappa424@gmail.com',{
+        method:'POST',
+        headers:{'Content-Type':'application/json','Accept':'application/json'},
+        body:JSON.stringify(data)
+      });
+
+      const result=await response.json().catch(()=>null);
+
+      if(!response.ok || !result || result.success!==true){
+        throw new Error((result && result.message) || 'Form submission failed');
+      }
+
+      status.textContent='Message sent successfully. Please check your inbox/spam if this is the first submission.';
+      status.className='form-status success';
+      contactForm.reset();
+      if(reply) reply.value='';
+      if(formUrl) formUrl.value=window.location.href.split('#')[0];
+    }catch(err){
+      status.textContent='Message could not be delivered. Please email udnsharanabasappa424@gmail.com directly.';
+      status.className='form-status error';
+    }finally{
+      submit.disabled=false;
+      submit.textContent='Send message ↗';
+    }
+  });
+}</script>
+</body></html>
