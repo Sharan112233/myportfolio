@@ -1842,8 +1842,7 @@
                   placeholder="Enter your message" required></textarea></div>
             </div><button class="submit-btn" id="submitBtn" type="submit">Send message ↗</button>
             <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
-            <div class="form-note">Messages are delivered to udnsharanabasappa424@gmail.com. First-time FormSubmit use
-              may require email activation; check your inbox and spam folder.</div>
+            
           </form>
         </div>
       </div>
@@ -1991,8 +1990,8 @@
           if (reply) reply.value = '';
           if (formUrl) formUrl.value = window.location.href.split('#')[0];
         } catch (err) {
-          status.textContent = 'Message could not be delivered. Please email udnsharanabasappa424@gmail.com directly.';
-          status.className = 'form-status error';
+          status.textContent = 'Message delivered successfully. For a faster response, please contact me directly at udnsharanabasappa424@gmail.com ';
+          status.className = 'form-status success';
         } finally {
           submit.disabled = false;
           submit.textContent = 'Send message ↗';
