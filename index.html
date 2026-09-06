@@ -1981,9 +1981,9 @@
 
           const result = await response.json().catch(() => null);
 
-          if (!response.ok || !result || result.success !== true) {
-            throw new Error((result && result.message) || 'Form submission failed');
-          }
+          if (!response.ok || !result || result.success === false || result.success === 'false') {
+    throw new Error((result && result.message) || 'Form submission failed');
+}
 
           status.textContent = 'Message sent successfully. Please check your inbox/spam if this is the first submission.';
           status.className = 'form-status success';
